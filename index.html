@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="linux js" dir="ltr" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestion - Gestion des Compétences</title>
+    <link href="style/css/tabzilla.css" rel="stylesheet">
+    
+    <!--[if lte IE 8]>
+    <script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="resource" type="application/l10n" href="locales.ini" />
+    <script type="text/javascript" src="l10n.js"></script>
+    <link rel="stylesheet" media="screen,projection,tv" href="style/css/firefox_fx-min.css">
+      <link rel="stylesheet" media="screen,projection,tv" href="style/css/contribute-min.css">
+
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.ico">
+    <script id="undefined" src="style/inpage_linkid.js" async="" type="text/javascript"></script>
+    <script src="js/ga.js" async="" type="text/javascript"></script>
+    <script src="js/site-min.js"></script>
+
+    <script>
+		var _gaq = _gaq || [];
+		var pluginUrl = 'http://www.google-analytics.com/plugins/ga/inpage_linkid.js';
+		_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+		_gaq.push(['_setAccount', 'UA-36116321-1']);
+		_gaq.push(['_setAllowLinker', true]);
+		_gaq.push(['_setAllowAnchor', true]);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		    var ga = document.createElement('script');
+		    ga.type = 'text/javascript';
+		    ga.async = true;
+
+		    var prefix = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www');
+		    ga.src = prefix + '.google-analytics.com/ga.js';
+
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(ga, s);
+		})();
+	</script>  
+</head>
+<body id="firefox-fx" class="html-ltr sky">
+	
+	<div id="strings"></div>
+	<div id="outer-wrapper">
+		<div id="wrapper">
+<header id="masthead">
+        <a id="tabzilla" href="http://www.mozilla.org/" class="tabzilla-closed" role="button" aria-expanded="false" aria-controls="tabzilla-panel" title="Liens Mozilla">Mozilla</a>
+
+                <nav role="navigation" id="nav-main">
+          <span tabindex="0" aria-controls="nav-main-menu" role="button" class="toggle">Menu</span>
+          <ul id="nav-main-menu">
+            <li class="first"><a href="https://www.mozilla.org/en-US/mission/" data-l10n-id="mission">Mission</a></li>
+            <li><a href="https://www.mozilla.org/en-US/about/" data-l10n-id="about">About</a></li>
+            <li><a href="https://www.mozilla.org/en-US/products/" data-l10n-id="products">Products</a></li>
+            <li class="last"><a href="https://www.mozilla.org/en-US/contribute/" data-l10n-id="contribute">Get Involved</a></li>
+          </ul>
+        </nav>
+        
+                <h2><a href="https://www.mozilla.org/en-US/"><img alt="mozilla" src="img/header-mozilla-stone.png"></a></h2>        
+      </header>
+
+<article id="moz15">
+
+  <div class="cta">
+    <h2 data-l10n-id="success-title">The success of our mission depends on participation from people like you.</h2>
+    <p data-l10n-id="success-description">
+      Find out how you can get involved or support Mozilla to help make a 
+      difference in the lives of users everywhere for the next 15 years — and 
+      beyond.    
+    </p>
+  </div>
+
+</article>
+
+			<div id="main-pager" class="pager pager-with-tabs">
+				<ul class="pager-tabs pager-selected-mobile">
+
+					<li><a class="tab selected" href="#welcome" data-l10n-id="welcome">Welcome</a></li>
+					<li><a class="tab" href="#dev" data-l10n-id="manager">Manager</a></li>
+					<li><a class="tab" href="#trad" data-l10n-id="collaborateur">Collaborateur</a></li>
+					<li><a class="tab" href="#design" data-l10n-id="competence">Compétences</a></li>
+				</ul>
+				<div class="billboard">
+					<div style="opacity: 1;" class="pager-content pager-selected-mobile">
+						<div style="display: block;" class="pager-page mobile-content default-page" id="welcome">
+
+				  	</div>
+
+
+						  <div style="display: block;" class="pager-page mobile-content default-page" id="manager">
+						      		
+						  </div>
+
+						  <div style="display: none;" class="pager-page desktop-content" id="collaborateur">
+						  	    
+		    			</div>
+
+		    			 <div style="display: none;" class="pager-page desktop-content" id="competence">
+						  	    
+		    			</div>
+
+  </div>
+  </div>
+
+</div>
+<!--
+    <form class="billboard" id="footer-email-form" action="#footer-email-form" method="post">
+      <input name="newsletter-footer" value="Y" type="hidden">
+      <input name="newsletter" value="mozilla-and-you" type="hidden">
+      <input name="source_url" value="http://www.mozilla.org/en-US/firefox/fx/" type="hidden">
+
+    <div id="form-content">
+    <fieldset>
+      <div class="row">
+        <div class="form-column-1">
+          <h3>Un problème&nbsp;?</h3>
+        </div>
+        <div class="form-column-2">
+          <div class="field field-email">
+            <input type="email" id="id_email" name="email" placeholder="VOTRE ADRESSE ÉLECTRONIQUE ICI" required="required">
+          </div>
+        </div>
+        <div class="form-column-3">
+          <div class="field field-interest">
+            <select id="id_interest" name="interest" required="required">
+<option selected="selected" value="">Centre d'intérêt&nbsp;?</option>
+<option value="support">Aide aux utilisateurs</option>
+<option value="qa">Tests et assurance qualité</option>
+<option value="coding">Code</option>
+<option value="marketing">Marketing</option>
+<option value="localization">Localisation et traduction</option>
+<option value="webdev">Développement web</option>
+<option value="addons">Modules</option>
+<option value="design">Graphisme et Design</option>
+<option value="documentation">Documentation et rédaction</option>
+<option value="education">Éducation</option>
+<option value="other">Autre</option>
+<option value="suggestions">J'ai une proposition d'amélioration pour Firefox</option>
+<option value="issues">J'ai besoin d'aide, j'ai un problème avec Firefox</option>
+</select>
+          </div>
+        </div>
+      </div>
+
+      <div id="form-details" class="form-row" style="display: block;">
+        <div class="form-column-1">
+          <p>Envoyez-nous un message et nous pourrons vous aiguiller tout de suite.</p>
+        </div>
+        <div class="form-column-2">
+          <div class="field field-comments">
+            <textarea id="id_comments" cols="30" placeholder="Salut, voilà c'est quoi le probéme…" required="required" name="comments" rows="4"></textarea>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-submit">
+      <input type="submit" value="Envoyer&nbsp;»" id="form-submit" class="button">
+    </div>
+  </div>
+</form>
+
+-->
+
+          
+    <form class="billboard" id="footer-email-form" action="#footer-email-form" method="post">
+      <input name="newsletter-footer" value="Y" type="hidden">
+      <input name="newsletter" value="mozilla-and-you" type="hidden">
+      <input name="source_url" value="http://www.mozilla.org/en-US/firefox/fx/" type="hidden">
+ <div class="form-column-1">
+      <h3>Un problème?</h3>
+</div>
+      <div class="form-contents">
+        <div class="field field-email ">
+          <input required="required" placeholder="VOTRE ADRESSE ÉLECTRONIQUE ICI" name="email" id="id_email" type="email">
+        </div>
+
+        <div class="form-column-3">
+          <div class="field field-interest">
+            <select id="id_interest" name="interest" required="required">
+<option selected="selected" value="">Centre d'intérêt&nbsp;?</option>
+<option value="support">Aide aux utilisateurs</option>
+<option value="qa">Tests et assurance qualité</option>
+<option value="coding">Code</option>
+<option value="marketing">Marketing</option>
+<option value="localization">Localisation et traduction</option>
+<option value="webdev">Développement web</option>
+<option value="addons">Modules</option>
+<option value="design">Graphisme et Design</option>
+<option value="documentation">Documentation et rédaction</option>
+<option value="education">Éducation</option>
+<option value="other">Autre</option>
+<option value="suggestions">J'ai une proposition d'amélioration pour Firefox</option>
+<option value="issues">J'ai besoin d'aide, j'ai un problème avec Firefox</option>
+</select>
+          </div>
+        </div>
+
+      <div id="form-details" class="form-row" style="display: block;">
+        <div class="form-column-1">
+          <p>Envoyez-nous un message et nous pourrons vous aiguiller tout de suite.</p>
+        </div>
+        <div class="form-column-2">
+          <div class="field field-comments">
+            <textarea id="id_comments" cols="30" placeholder="Salut, voilà c'est quoi le probéme…" required="required" name="comments" rows="4"></textarea>
+          </div>
+        </div>
+      </div>
+
+
+ 
+        </div>
+
+      <div class="form-submit">
+        <input id="footer_email_submit" value="Envoyer&nbsp;»" class="button" type="submit">
+      </div>
+    </form>
+  
+    </div><!-- close #wrapper -->
+
+          <footer id="colophon">
+      <div class="row">
+
+          <div class="footer-logo">
+              <a href="http://www.mozilla.org/en-US/">
+              	<img src="img/footer-mozilla.png" alt="mozilla"></a>
+          </div>
+
+          <div class="footer-license">
+              <p>
+                <span data-l10n-id="portions" >Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a</span> <a href="http://www.mozilla.org/foundation/licensing/website-content.html" data-l10n-id="creative-licence">Creative Commons license</a>.              </p>
+              <p>
+                <a href="http://www.mozilla.org/en-US/contribute/page/" data-l10n-id="contribute-this-page">Contribute to this page</a>
+              </p>
+          </div>
+          <ul class="footer-nav">
+            <li><a href="http://www.mozilla.org/en-US/about/contact.html#map-mountain_view" data-l10n-id="contact-us">Contact Us</a></li>
+            <li><a href="http://www.mozilla.org/en-US/privacy/" data-l10n-id="privacy">Privacy Policy</a></li>
+            <li><a href="http://www.mozilla.org/en-US/about/legal.html" data-l10n-id="legal">Legal Notices</a></li>
+            <li><a href="http://www.mozilla.org/en-US/legal/fraud-report/index.html" data-l10n-id="report">Report Trademark Abuse</a></li>
+          </ul>
+
+                    <ul class="footer-nav">
+            <li><a href="http://twitter.com/firefox">Twitter</a></li>
+            <li><a href="http://facebook.com/Firefox">Facebook</a></li>
+            <li><a href="https://affiliates.mozilla.org/" data-l10n-id="affiiates">Firefox Affiliates</a></li>
+          </ul>
+          
+      </div>
+      </footer>
+    
+          <script src="js/tabzilla.js"></script>
+        </div><!-- close #outer-wrapper -->
+
+      <script src="js/firefox-resp-min.js"></script>
+      <script src="js/firefox_fx-min.js"></script>
+
+<script>
+$(document).ready(function() {
+  var latestVersion = parseInt('20.0'.split('.')[0], 10);
+  var isFirefox = (/\sFirefox/.test(window.navigator.userAgent));
+  var isMobile = (/\sMobile/.test(window.navigator.userAgent));
+
+  // If Firefox is the latest version and not mobile,
+  // hide the out-of-date messaging and show up-to-date
+  if(isFirefox && !isMobile) {
+    if (latestVersion <= getFirefoxMasterVersion()) {
+      $('#out-of-date').hide();
+      $('#up-to-date').show();
+    }
+  }
+});
+</script>
+  
+<div class="crossrider-nofity-14917" index="0"></div><div class="crossrider-nofity-14917-top-left"></div><div class="crossrider-nofity-14917-top-right"></div><div class="crossrider-nofity-14917-bottom-left"></div><div class="crossrider-nofity-14917-bottom-right"></div></body></html>
